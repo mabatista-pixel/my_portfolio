@@ -11,12 +11,11 @@ export const ProjectsSection = ({projects}) => {
                                 <p className="paragraph">{project.description}</p>
                                 <a className="link" href="">Saiba mais</a>
                             </div>
-                            <img src="src/assets/github-icon.png" alt="Logo Github" />
+                            <img src="src/assets/git-icon.png" alt="Logo Github" />
                         </li>
                     )
                 })}
             </ul>
         </section>
     )
-
 }
