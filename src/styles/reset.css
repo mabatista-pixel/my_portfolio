@@ -12,8 +12,11 @@ ul, ol {
 
 button {
     cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
 
 img{
     max-width: 100%;
 }
+

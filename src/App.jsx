@@ -1,4 +1,4 @@
-import "./styles/reset.css"
+import "./styles/index.css"
 import { BannerSection } from "./components/BannerSection"
 import { Header } from "./components/Header"
 import { AboutMeSection } from "./components/AboutMeSection"
