@@ -1,15 +1,14 @@
-import { Footer } from "../Footer"
 import { Header } from "../Header"
+import { Footer } from "../Footer"
 
 export const DefaultTemplate = ({ children }) => {
     return (
         <>
-            <Header />
+            <Header/>
             <main>
                 {children}
             </main>
-            <Footer />
-
+            <Footer/>
         </>
     )
 }

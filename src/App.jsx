@@ -2,7 +2,8 @@ import "./styles/index.css"
 import { LandingPage } from "./pages/LandingPage"
 
 
-function App() {
+const App = () => {
+
 
   return (
     <>
