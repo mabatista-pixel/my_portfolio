@@ -5,7 +5,7 @@ export const BannerSection = () => {
         <div>
             <h1 className="title1">Bem vindo ao meu portfólio</h1>
             <p className="paragraph">Uma frase interessante sobre mim</p>
-            <button>Saiba mais</button>
+            <button className="btn">Saiba mais</button>
         </div>
     </section>
     )

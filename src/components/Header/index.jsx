@@ -7,7 +7,7 @@ export const Header = () => {
                 <a href="">Stack</a>
                 <a href="">Projetos</a>
             </div>
-            <button>Contato</button>
+            <button className="btn">Contato</button>
         </header>
     )
 }

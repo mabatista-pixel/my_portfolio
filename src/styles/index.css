@@ -1,7 +1,12 @@
 @import "./reset.css";
 @import "./global.css";
 @import "./typography.css";
+@import "./button.css";
 
 #root {
     background-color: var(--color-black);
+}
+
+.link {
+    
 }
