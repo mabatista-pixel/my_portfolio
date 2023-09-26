@@ -1,9 +1,10 @@
 import styles from "./style.module.css"
+import portfolioImg from "../../assets/portfolio.png"
 
 export const Header = () => {
     return(
         <header className={styles.flexbox}>
-            <img className={styles.imgLogo} src="src/assets/portfolio.png" alt="Imagem Logo" />
+            <img src={portfolioImg} alt="Imagem Logo" />
             <div className={styles.clickable}>
                 <a className={styles.headerLink} href="">Sobre</a>
                 <a className={styles.headerLink} href="">Stack</a>

@@ -1,4 +1,6 @@
 import styles from "./style.module.css"
+import gitIcon from "../../assets/git-icon.png"
+
 export const ProjectsSection = ({projects}) => {
     return(
         <section className={styles.container}>
@@ -12,7 +14,7 @@ export const ProjectsSection = ({projects}) => {
                                 <p className="paragraph">{project.description}</p>
                                 <a className="link" href="">Saiba mais</a>
                             </div>
-                            <img className={styles.projectImg} src="src/assets/git-icon.png" alt="Logo Github" />
+                            <img className={styles.projectImg} src={gitIcon} alt="Logo Github" />
                         </li>
                     )
                 })}
