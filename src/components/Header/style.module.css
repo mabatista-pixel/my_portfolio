@@ -1,0 +1,21 @@
+.flexbox {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.clickable {
+    display: flex;
+    gap: 4rem;
+}
+
+.headerLink {
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 0.8rem;
+}

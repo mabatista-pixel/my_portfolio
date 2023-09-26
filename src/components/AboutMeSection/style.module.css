@@ -1,0 +1,11 @@
+#aboutTitle {
+    width: 211px;
+    height: 48px;
+}
+
+#aboutParagraph {
+    width: 615px;
+    height: 150px;
+    padding-left: 100px;
+    line-height: 30px;
+}

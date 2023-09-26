@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 2.5rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projectCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 429px;
+    height: 143px;
+    padding: 20px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    margin-bottom: 20px;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.projectImg {
+    position: relative;
+    bottom: 40px;
+}

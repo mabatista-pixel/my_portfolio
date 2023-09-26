@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 2.5rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.techCard {
+    display: flex;
+    align-items: center;
+    width: 387px;
+    height: 56px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    padding: 10px 15px;
+    gap: 1.25rem;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.techImg {
+    width: 18px;
+    height: 27px;
+}
+
+#techTitle {
+    width: 55px;
+    height: 27px;
+}

@@ -2,11 +2,15 @@
 @import "./global.css";
 @import "./typography.css";
 @import "./button.css";
+@import "./grid.css";
 
 #root {
     background-color: var(--color-black);
+    padding: 0 10vw;
 }
 
-.link {
-    
+.banner-img {
+    width: 27.3125rem;
+    height: 16.5625rem;
 }
+
