@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    max-width: 896px;
+    height: 150px;
+    padding: 2.5rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    /* background: #181818; */
+}
+
+.footerInfo {
+    line-height: 50px;
+}
+
+.footerImg{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
