@@ -12,7 +12,7 @@ export const Footer = () => {
             <img className={styles.footerImg}  src={linkedinIcon} alt="Icone Linkedin" />
             <img className={styles.footerImg}  src={githubIcon} alt="Icone Github" />
             </div>
-            <p className="paragraph">Todos os direitos reservados - José da Silva</p>
+            <p className="paragraph">Todos os direitos reservados - Matheus Batista</p>
         </footer>
     )
 }

@@ -1,5 +1,5 @@
-export const username = "JOSEDASILVA";
+export const username = "MATHEUSBATISTA";
 
-export const user = "José da Silva";
+export const user = "Matheus Batista";
 
 export default user;

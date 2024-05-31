@@ -8,7 +8,7 @@ export const BannerSection = () => {
             <div className={styles.flexbox}>
                 <span className="label">{user}</span>
                 <h1 className="title1">Bem vindo ao meu portfólio</h1>
-                <p className="paragraph">Uma frase interessante sobre mim</p>
+                <p className="paragraph">"O homem não é nada além daquilo que a educação faz dele." Immanuel Kant</p>
                 <button className="btn">Saiba mais</button>
             </div >
             <img className="banner-img" src={bannerImg} alt="Imagem Banner" />
